@@ -56,7 +56,7 @@ def max_flow_lp_gurobi(graph, capacities, source, sink):
 
 @app.route('/')
 def hello_world():  # put application's code here
-    return 'Hello World!'
+    return 'Welcome to Max Flow Solver'
 
 @app.route('/maxflow', methods=['POST'])
 def run_max_flow():
